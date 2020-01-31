@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+.letur
+{
+    font-family: arial;
+}
+.box1
+{
+    border: 1px solid green;
+    color: red;
+}
+.box2
+{
+    border: 1px solid green;
+}
+div
+{
+    border: 3px solid red;
+    margin: 10px;
+    padding: 10px;
+}
+.box3
+{
+    border: 1px dashed blue;
+}
+.div2
+{
+    border: 1px solid red;
+
+}
+.listi1 li
+{
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    border: 3px dashed green;
+}
+.listi2 li
+{
+    display: inline;
+    margin: 1em;
+    padding: 1em;
+    border: 3px dashed blue;
+}
+.listi3 li
+{
+    display: inline-block;
+    margin: 1em;
+    padding: 1em;
+    border: 3px dashed red;
+}
+.box{
+    float: left;
+    width: 50%;
+    border: 1px solid;
+    color: black;
+    padding-left: 4px;
+}
+.imgR{
+    float: right;
+    margin: 10px;
+    padding: 1px;
+}
+.bigL{
+    font-size: 50px;
+    margin: 1px;
+    padding: 5px;
+    float: left;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+.athugid{
+    text-align: center;
+    background-color: yellow;
+}
+.box4{
+    border: 1px solid;
+    color: black;
+}
+.Verkefni{
+    text-align: left;
+    background-color: gray;
+}
