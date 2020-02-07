@@ -1,0 +1,63 @@
+header, footer, nav, main, aside, article{
+    border: 0.5px solid;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "haus haus haus haus"
+    "midja midja vinstri  haegri"
+    "fotur fotur fotur fotur"
+}
+.header{
+    grid-area: haus;
+    font-family: arial;
+    text-align: center;
+}
+.nav{
+    grid-area: nav;
+}
+.aside{
+    grid-area: vinstri;
+}
+.main{
+    grid-area: midja;
+    text-align: center;
+    padding: 5px;
+}
+.article{
+    grid-area: haegri;
+}
+.footer{
+    grid-area: fotur;
+}
+.litur1{
+    color: gold;
+    font-size: 50px;
+}
+.box1{
+    display: inline-block;
+    border: 0.5px solid;
+    text-align: center;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titill{
+    text-align: left;
+    padding: 20px;   
+}
+ul{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0;
+    padding: 10px;  
+}
+li{
+    diplay: block;
+    flex: 0 1 auto;
+    list-style-type: none;
+}
