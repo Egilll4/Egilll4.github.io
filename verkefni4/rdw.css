@@ -1,0 +1,110 @@
+header, footer, nav, main, aside, article{
+    border: 0.5px solid;
+}
+body{
+    background: pink;
+    display: grid;
+    grid-template-areas:
+    "nav"
+    "haus"
+    "midja" 
+    "vinstri"
+    "haegri"
+    "fotur"
+}
+.header{
+    grid-area: haus;
+    font-family: arial;
+    text-align: center;
+    background: red;
+}
+.nav{
+    grid-area: nav;
+    background: yellow;
+}
+.aside{
+    grid-area: vinstri;
+    background: blue;
+}
+.main{
+    grid-area: midja;
+    text-align: left;
+    padding: 5px;
+    background: green;
+}
+.article{
+    grid-area: haegri;
+    background: orange;
+}
+.footer{
+    grid-area: fotur;
+    background: pink;
+}
+.litur1{
+    color: gold;
+    font-size: 50px;
+}
+}
+.titill{
+    text-align: left;
+    padding: 20px;   
+}
+ul{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0;
+    padding: 10px;  
+}
+li{
+    diplay: block;
+    flex: 0 1 auto;
+    list-style-type: none;
+}
+
+@media screen and (min-width:800px){
+    body{
+        background: lime;
+        display: grid;
+        grid-template-areas:
+        "nav nav"
+        "haus haus"
+        "vinstri midja" 
+        "haegri midja"
+        "fotur fotur";
+    }
+}
+@media screen and (min-width:1200px){
+    body{
+        background: silver;
+        display: grid;
+        grid-template-areas:
+        "nav nav nav nav"
+        "haus haus haus haus"
+        "vinstri midja midja haegri" 
+        "fotur fotur fotur fotur";
+    }
+}
+picture{
+    display: grid;
+    grid-template-areas: 
+    "mynd1"
+    "mynd2"
+    "mynd3"
+    "mynd4";
+}
+@media screen and (min-width:800px){
+picture{
+    display: grid;
+    grid-template-areas: 
+    "mynd1 mynd2"
+    "mynd3 mynd4";
+}
+@media screen and (min-width:1200px){
+picture{
+    display: grid;
+    grid-template-areas: 
+    "mynd1 mynd2 mynd3 mynd4";
+}
+}
