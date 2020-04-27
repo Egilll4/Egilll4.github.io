@@ -1,0 +1,51 @@
+body{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 0, 0);
+    padding: 10px;
+}
+.litur1{
+    color:red;
+    text-align: center;
+    font-family: arial;
+}
+.litur2{
+    color: green;
+}
+.litur3{
+    color: rgb(107, 6, 6)
+}
+.litur4{
+    color:rgb(141, 0, 0)
+}
+.litur5{
+    color:blue;
+    text-align: center;
+
+}
+
+.litur6
+{
+    color: red;
+}
+.litur7{
+    color: blue;
+}
+.poem{
+    margin-left: 40px;
+    font-style: italic;
+}
+.titill1
+{
+    text-align: center;
+}
+.litur8
+{
+    color:blue;
+    text-align: center;
+}
+.litur9
+{
+    color:blue;
+    font-family:italic
+    
+}
